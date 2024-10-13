@@ -1,0 +1,89 @@
+html {
+  background-color: rgb(216, 244, 253);
+}
+body {
+  font-family: "Raleway", sans-serif;
+  min-width: 700px;
+}
+.container {
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.952);
+  margin-top: 100px;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.05);
+  text-align: left;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.brightness_high,
+.current-weather {
+  margin: 0;
+  text-align: right;
+  position: relative;
+}
+.current-weather {
+  font-size: 70px;
+  bottom: 160px;
+  color: black;
+  font-weight: 700;
+}
+.brightness_high {
+  bottom: 85px;
+  left: 415px;
+  font-size: 40px;
+  color: rgb(255, 159, 24);
+  font-weight: 300;
+}
+p,
+footer {
+  color: rgb(125, 122, 122);
+}
+p {
+  font-size: 18px;
+}
+.orange {
+  color: rgb(255, 159, 24);
+}
+.input {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+}
+.search-box {
+  color: rgb(125, 122, 122);
+  width: 70%;
+  margin-right: 10px;
+  background-color: rgba(216, 244, 253, 0.448);
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+.search-button {
+  width: 27%;
+  background-color: rgba(255, 159, 24, 0.836);
+  color: rgba(255, 255, 255, 0.952);
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+}
+.search-button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 159, 24, 0.648);
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 159, 24);
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
